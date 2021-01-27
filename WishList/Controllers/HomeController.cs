@@ -10,6 +10,6 @@ namespace WishList.Controllers
     {
         public IActionResult Index() => View("Index");
 
-        public IActionResult Error => View("Error");
+        public IActionResult Error() => View("Error");
     }
 }
