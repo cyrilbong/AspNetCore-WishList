@@ -15,7 +15,5 @@ namespace WishList.Data
         }
 
         public DbSet<Item> Items { get; set; }
-
-        public DbSet<CelestialObject> CelestialObjects { get; set; }
     }
 }
